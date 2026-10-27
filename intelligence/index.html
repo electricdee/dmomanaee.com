@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DI — Darian Momanaee</title>
+<meta name="description" content="Tell DI what you need written. It runs on a human.">
+<meta property="og:title" content="DI — Darian Momanaee">
+<meta property="og:description" content="Tell DI what you need written. It runs on a human.">
+<meta property="og:type" content="website">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/oswald.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/notosans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+<a class="brand" href="../"><span class="full">Darian Momanaee</span><span class="short">D. Momanaee</span><small>Creative Director</small></a>
+<nav class="nav" aria-label="Main"><a href="../work/">Work</a><a href="../about/">About</a><a href="../contact/">Contact</a><a href="../intelligence/" aria-current="page">DI</a></nav>
+</div></header>
+<main>
+
+<section class="di"><div class="wrap">
+<div class="di-top"><div class="kicker"><span class="di-dot"></span>DI · v1.0</div><h1>What do you need written?</h1><p class="lede">Describe the brief. Brand, audience, tone, length — or just the feeling you’re after.</p></div>
+<form id="di-form" class="di-box" autocomplete="off"><label class="hidden" for="di-prompt">Your request</label><textarea id="di-prompt" rows="3" placeholder="e.g. A headline for a Parkinson’s launch that makes a neurologist stop scrolling" required></textarea><div class="di-row"><div class="di-chips" role="group" aria-label="Suggestions"><button type="button" class="chip" data-chip="A headline">A headline</button><button type="button" class="chip" data-chip="A tagline">A tagline</button><button type="button" class="chip" data-chip="A 30-second radio script">A 30-second radio script</button><button type="button" class="chip" data-chip="A manifesto">A manifesto</button><button type="button" class="chip" data-chip="A launch email">A launch email</button><button type="button" class="chip" data-chip="A social post">A social post</button></div><button class="di-send" type="submit" aria-label="Send request"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg></button></div></form>
+<p class="di-fine">Responses are written, not generated. Trained on twenty years of actual work.</p>
+<div id="di-reveal" class="di-reveal" hidden aria-live="polite"><div class="kicker">Request received</div><h2>DI runs on a human.</h2><p>One creative director, no GPU. Your request is on its way to his inbox — replies take a little longer than a chatbot’s, and read better.</p><p class="di-fallback">Mail app didn’t open? <a id="di-mailto" href="mailto:momanaee@gmail.com">Open it again</a> · <button type="button" id="di-copy" class="linkbtn">Copy his email address</button> <span id="di-copied" class="di-copied" hidden>copied: momanaee@gmail.com</span></p><p><a class="btn ghost di-ghost" href="../">Back to the work</a></p></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Darian Momanaee</span><span><a href="mailto:momanaee@gmail.com">momanaee@gmail.com</a> · Harlem, New York City</span></div></footer>
+<script src="../script.js"></script>
+</body>
+</html>
